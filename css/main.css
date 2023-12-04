@@ -316,8 +316,89 @@ img,video{
     position:fixed
 }
 .absolute{
+    transition: transform 0.3s ease-in-out;
     position:absolute
 }
+
+
+#cta-lead-hero {
+    outline: none;
+    border: none;
+    padding: 0.7em 1em;
+    display: inline-block;
+    text-decoration: none;
+    margin: auto;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-family: 'open_sansregular';
+    border-radius: 3px;
+    background:#353535;
+    position: relative;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    border-radius: 12px;
+  }
+
+  #cta-lead-hero {
+    overflow: hidden;
+    color: #fff;
+  }
+  #cta-lead-hero i { 
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    left: 0.1em;
+    font-size:1em;
+    -webkit-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+  }
+
+
+#cta-lead-hero:hover i  { 
+    left:-0.2em;
+  }
+  #cta-lead-hero .reflexo {
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    left: -145px;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+  }
+  #cta-lead-hero:hover {
+    background-color: #ffcc00;
+    color: #353535;
+  }
+  #cta-lead-hero:hover .reflexo {
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    left: 135px;
+  }
+
+
+.lg\:w-10:hover{
+    transform: scaleY(-1); /* Inverte o elemento verticalmente ao passar o mouse */
+    background-color: #ffcc00; /* Nova cor de fundo ao passar o mouse */
+    border: 2px solid #ffcc00; /* Adicionando uma borda branca ao passar o mouse */
+}
+
+
 .relative{
     position:relative
 }
@@ -801,6 +882,9 @@ img,video{
     --tw-text-opacity: 1;
     color:rgb(255 204 0 / var(--tw-text-opacity))
 }
+
+
+
 @media (min-width: 1024px){
     .lg\:left-\[-160px\]{
         left:-160px
@@ -935,3 +1019,12 @@ html{
     scroll-padding-top:64px
 }
  
+
+.texto-politica{
+    margin-top: 180px;
+    padding: 5%;
+}
+
+.titulo1{
+    margin-bottom: 50px;
+}
