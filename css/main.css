@@ -398,6 +398,22 @@ img,video{
     border: 2px solid #ffcc00; /* Adicionando uma borda branca ao passar o mouse */
 }
 
+.lg\:w-24{
+    transition: background-color 1.5s ease;
+}
+
+.lg\:w-24:hover{
+     /* Inverte o elemento verticalmente ao passar o mouse */
+    background-color: #ffcc00;
+    border: 2px solid #ffcc00; /* Adicionando uma borda branca ao passar o mouse */
+}
+
+.lg\:w-4{
+    transition: transform 0.5s ease;
+}
+.lg\:w-4:hover{
+    transform: rotate(360deg);
+}
 
 .relative{
     position:relative
