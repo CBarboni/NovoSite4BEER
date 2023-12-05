@@ -405,7 +405,7 @@ img,video{
 .lg\:w-24:hover{
      /* Inverte o elemento verticalmente ao passar o mouse */
     background-color: #ffcc00;
-    border: 2px solid #ffcc00; /* Adicionando uma borda branca ao passar o mouse */
+    
 }
 
 .lg\:w-4{
